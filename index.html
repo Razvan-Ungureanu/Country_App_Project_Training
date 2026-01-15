@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Country Search</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="app">
+    <h1>Country Search</h1>
+
+    <div class="search-row">
+        <input
+          id="countryInput"
+          list="countriesList"
+          placeholder="ex: romania"
+        />
+        <datalist id="countriesList"></datalist>
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="result"></div>
+    <div id="status" class="status"></div>
+   </div>
+
+   <!-- JS (defer = ruleaza dupa ce HTML-ul e incarcat) -->
+   <script src="script.js" defer></script>
+</body>
+</html>
+
+
