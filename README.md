@@ -22,21 +22,21 @@ Aplicația pornește cu un input gol. Utilizatorul poate:
 
 ## Imaginea 1 – Căutare + sugestii
 
-![Search result – Nigeria](Search_Result.PNG)
+![Search result – Romania](Search_Result.png)
 
 Utilizatorul tastează Nigeria. Aplicația:
 
 - detectează că există minimum 3 caractere
 - face un partial search către API
 - afișează rezultatele într-o listă
-- lista poate fi parcursă cu săgețile ↑ ↓
+- lista poate fi pxarcursă cu săgețile ↑ ↓
 - apăsarea Enter selectează țara activă
 
 ---
 
 ## Imaginea 2 – Detalii țară + istoric + favorite
 
-![Country detail](Country_Card)
+![Country detail](Country_Card.png)
 
 După selectarea unei țări:
 
